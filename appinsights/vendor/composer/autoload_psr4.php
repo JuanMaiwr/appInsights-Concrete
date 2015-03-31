@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ApplicationInsights\\Joomla\\' => array($baseDir . '/src'),
+    'ApplicationInsights\\Concrete\\' => array($baseDir . '/src'),
     'ApplicationInsights\\' => array($vendorDir . '/microsoft/application-insights/ApplicationInsights'),
 );

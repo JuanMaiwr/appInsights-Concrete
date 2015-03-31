@@ -1,6 +1,9 @@
 <?php
-namespace ApplicationInsights\Joomla;
+
+namespace ApplicationInsights\Concrete;
+
 defined('C5_EXECUTE') or die(_("Access Denied."));
+
 /**
  * Does client-side instrumentation using the Javascript SDK for Application Insights
  * @copyright   Copyright 2015. All rights re-served.
